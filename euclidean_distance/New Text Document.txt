@@ -1,0 +1,34 @@
+double* MKL_Euclidean_distance()
+{
+	double* x_E, *y_E;
+	double* x_ones, *y_ones;
+	x_E = (double*)MKL_malloc(Mx*n * sizeof(double), 64);
+	y_E = (double*)MKL_malloc(My*n * sizeof(double), 64);
+	x_ones = (double*)MKL_malloc(n*My * sizeof(double), 64);
+	y_ones = (double*)MKL_malloc(Mx*n * sizeof(double), 64);
+	double* x_E_sum = (double*)MKL_malloc(Mx*My * sizeof(double), 64);
+	double* y_E_sum = (double*)MKL_malloc(Mx*My * sizeof(double), 64);
+	double* x_y_mul = (double*)MKL_malloc(Mx*My * sizeof(double), 64);
+	double x_y_d_mid[Mx*My];
+	double x_y_dist[Mx*My];
+	double x[Mx*n] = { 1,2,3,4 };
+	double y[My*n] = { 2,2,2,2 };
+	for (int i = 0; i < n*My; i++)
+	{
+		x_ones[i] = 1;
+	}
+	for (int j = 0; j < Mx*n; j++)
+	{
+		y_ones[j] = 1;
+	}
+	//Dist = sqrt(A.^2*ones(size(B'))+ones(size(A))*(B').^2-2*A*B')
+
+	vdSqr(Mx*n, x, x_E); //x.^2
+	vdSqr(My*n, y, y_E); //y.^2
+	cblas_dgemm(CblasRowMajor, CblasNoTrans, CblasNoTrans, Mx, My, n, 1, x_E, n, x_ones, My, 0, x_E_sum, My);//x.^2*ones(size(y'))
+	cblas_dgemm(CblasRowMajor, CblasNoTrans, CblasTrans, Mx, My, n, 1, y_ones, n, y_E, My, 0, y_E_sum, My);//ones(size(x))*(y.^2)'
+	cblas_dgemm(CblasRowMajor, CblasNoTrans, CblasTrans, Mx, My, n, -2, x, n, y, My, 0, x_y_mul, My);//-2*x*y'
+	vdAdd(Mx*My, x_E_sum, y_E_sum, x_y_d_mid);
+	vdAdd(Mx*My, x_y_d_mid, x_y_mul, x_y_dist);
+	return x_y_dist;
+} 

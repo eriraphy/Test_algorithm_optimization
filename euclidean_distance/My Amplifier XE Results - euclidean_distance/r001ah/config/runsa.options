@@ -1,0 +1,120 @@
+-r
+C:\Users\Raphy\Desktop\C\Uber\Test_uber\euclidean_distance\My Amplifier XE Results - euclidean_distance\r001ah
+--target=host
+--itt-config=frame
+--stack-stitching
+--data-limit-mb=500
+--mrte-type=java,dotnet
+--event-config=CPU_CLK_UNHALTED.THREAD:sa=2400000,CPU_CLK_UNHALTED.REF_TSC:sa=2400000,INST_RETIRED.ANY:sa=2400000
+--sample-after-multiplier=1.0
+--event-mux
+--mrte-mode=auto
+--etw-config=clr,js
+--search-dir
+sym=C:\Users\Raphy\Desktop\C\Uber\Test_uber\x64\Release
+--search-dir
+sym=C:\Users\Raphy\Desktop\C\Uber\Test_uber
+--search-dir
+bin=C:\Users\Raphy\Desktop\C\Uber\Test_uber\x64\Release
+--search-dir
+bin=C:\Users\Raphy\Desktop\C\Uber\Test_uber
+--search-dir
+bin=C:/Users\Raphy\Desktop\C\Uber\Test_uber\euclidean_distance\$(VC_ExecutablePath_x64)
+--search-dir
+bin=C:/Users\Raphy\Desktop\C\Uber\Test_uber\euclidean_distance\$(WindowsSDK_ExecutablePath)
+--search-dir
+bin=C:/Users\Raphy\Desktop\C\Uber\Test_uber\euclidean_distance\$(VS_ExecutablePath)
+--search-dir
+bin=C:/Users\Raphy\Desktop\C\Uber\Test_uber\euclidean_distance\$(MSBuild_ExecutablePath)
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.0.100\windows\bin\intel64
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.0.100\windows\redist\intel64\compiler
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.0.100\windows\redist\intel64_win\compiler
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow
+--search-dir
+bin=C:\Program Files (x86)\MSBuild\14.0\bin\amd64
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\amd64
+--search-dir
+bin=C:\windows\Microsoft.NET\Framework64\v4.0.30319
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\VCPackages
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools
+--search-dir
+bin=C:\Program Files (x86)\HTML Help Workshop
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\x64
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Performance Tools
+--search-dir
+bin=C:\Program Files (x86)\Windows Kits\10\bin\x64
+--search-dir
+bin=C:\Program Files (x86)\Windows Kits\10\bin\x86
+--search-dir
+bin=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.0.100\windows\redist\intel64_win\daal
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.0.100\windows\redist\intel64_win\tbb\vc_mt
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\itac_2017\bin
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\itac_2017\dll
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.0.072\windows\mpi\intel64\bin\..\..\intel64\bin
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\Advisor 2017\bin32
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\VTune Amplifier XE 2017\bin32
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\Inspector 2017\bin32
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler
+--search-dir
+bin=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin
+--search-dir
+bin=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\libnvvp
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\Trace Analyzer and Collector\9.1.1.019\bin
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.0.110\windows\mpi\intel64\bin
+--search-dir
+bin=C:\windows\system32
+--search-dir
+bin=C:\windows
+--search-dir
+bin=C:\windows\System32\Wbem
+--search-dir
+bin=C:\windows\System32\WindowsPowerShell\v1.0
+--search-dir
+bin=C:\Users\Raphy\.dnx\bin
+--search-dir
+bin=C:\Program Files\Microsoft DNX\Dnvm
+--search-dir
+bin=C:\Program Files\Microsoft SQL Server\130\Tools\Binn
+--search-dir
+bin=C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit
+--search-dir
+bin=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+--search-dir
+bin=C:\Users\Raphy\AppData\Local\Programs\Python\Python35-32\Scripts
+--search-dir
+bin=C:\Users\Raphy\AppData\Local\Programs\Python\Python35-32
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\Trace Analyzer and Collector\9.1.1.019\dll
+--
+C:\Users\Raphy\Desktop\C\Uber\Test_uber\x64\Release\euclidean_distance.exe

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <rdmgr>
+  <timestamp type="u64_t">1471333633</timestamp>
+  <hostname>DESKTOP-TBK5ME6</hostname>
+  <os>windows</os>
+  <product>Intel® VTune™ Amplifier XE 2017 Beta Update 1</product>
+  <buildNumber type="s32_t">466719</buildNumber>
+  <logicalCPUCount type="s32_t">4</logicalCPUCount>
+  <CPUFrequency type="s64_t">2400000000</CPUFrequency>
+  <CPUFamily type="s32_t">6</CPUFamily>
+  <CPUModel type="s32_t">78</CPUModel>
+  <CPUStepping type="s32_t">3</CPUStepping>
+  <CPUBrandName>Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz</CPUBrandName>
+  <isa>avx</isa>
+  <collectionTimeBegin type="u64_t">1471333633</collectionTimeBegin>
+  <collectionTimeEnd type="u64_t">1471333652</collectionTimeEnd>
+  <variables>
+   <at>ah</at>
+  </variables>
+ </rdmgr>
+</root>

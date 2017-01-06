@@ -1,0 +1,7 @@
+﻿  convex_hull_approx.cpp
+c:\users\raphy\desktop\c\uber\test_uber\origin_uber\convex_hull_approx.cpp(155): warning C4244: 'initializing': conversion from 'double' to 'int32_t', possible loss of data
+c:\users\raphy\desktop\c\uber\test_uber\origin_uber\convex_hull_approx.cpp(155): warning C4244: 'initializing': conversion from 'double' to 'const int32_t', possible loss of data
+c:\users\raphy\desktop\c\uber\test_uber\origin_uber\convex_hull_approx.cpp(160): warning C4244: 'initializing': conversion from 'double' to 'int32_t', possible loss of data
+c:\users\raphy\desktop\c\uber\test_uber\origin_uber\convex_hull_approx.cpp(160): warning C4244: 'initializing': conversion from 'double' to 'const int32_t', possible loss of data
+  origin_uber.vcxproj -> C:\Users\Raphy\Desktop\C\Uber\Test_uber\x64\Debug\origin_uber.exe
+  origin_uber.vcxproj -> C:\Users\Raphy\Desktop\C\Uber\Test_uber\x64\Debug\origin_uber.pdb (Partial PDB)

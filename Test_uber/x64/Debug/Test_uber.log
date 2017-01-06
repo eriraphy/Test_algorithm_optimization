@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Test_uber.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  convex_hull_approx_tbb.cpp
+c:\users\raphy\desktop\c\uber\test_uber\test_uber\convex_hull_approx_tbb.cpp(142): warning C4244: 'initializing': conversion from 'double' to 'int32_t', possible loss of data
+c:\users\raphy\desktop\c\uber\test_uber\test_uber\convex_hull_approx_tbb.cpp(142): warning C4244: 'initializing': conversion from 'double' to 'const int32_t', possible loss of data
+c:\users\raphy\desktop\c\uber\test_uber\test_uber\convex_hull_approx_tbb.cpp(148): warning C4244: 'initializing': conversion from 'double' to 'int32_t', possible loss of data
+c:\users\raphy\desktop\c\uber\test_uber\test_uber\convex_hull_approx_tbb.cpp(148): warning C4244: 'initializing': conversion from 'double' to 'const int32_t', possible loss of data
+  Test_uber.vcxproj -> C:\Users\Raphy\Desktop\C\Uber\Test_uber\x64\Debug\tbb_uber.exe
+  Test_uber.vcxproj -> C:\Users\Raphy\Desktop\C\Uber\Test_uber\x64\Debug\tbb_uber.pdb (Partial PDB)

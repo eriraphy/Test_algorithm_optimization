@@ -1,0 +1,3 @@
+Wall time for convex_hull_approx_test is 0.354668
+CPU time for convex_hull_approx_test is 0.354689
+
